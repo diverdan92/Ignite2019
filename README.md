@@ -6,7 +6,7 @@ This application is used to demonstrate a simple and quick Azure DevOps Build Pi
 The Azure DevOps Project for this application (including Build Pipelines and status) is available [here](https://dajaco.visualstudio.com/Ignite2019).
 
 ## CI Status
-[TODO]
+[![Build Status](https://dajaco.visualstudio.com/Ignite2019/_apis/build/status/diverdan92.Ignite2019?branchName=master)](https://dajaco.visualstudio.com/Ignite2019/_build/latest?definitionId=42&branchName=master)
 
 # Resources
 A more advanced example is available [here.](https://github.com/microsoft/devops-for-windows-apps) This includes setting up multiple deployment channels, handling package signing and certificate management, hanlding branches, and more. You can also view a conference presentation centered around the more advanced example from Build 2019 [here](https://www.youtube.com/watch?v=vc2edJW34Ps
