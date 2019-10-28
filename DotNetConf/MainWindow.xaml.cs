@@ -23,7 +23,7 @@ namespace DotNetConf
 		public MainWindow()
 		{
 			InitializeComponent();
-			AppCenter.Start("c133cf25-d427-4ed5-b556-bbac44e0c69e",
+			AppCenter.Start("a18d8658-8a46-4ce6-a63a-43fbb45facb5",
 							   typeof(Analytics), typeof(Crashes));
 			_paper = new PaperTrail(this);
 			ProcessKey('0');
