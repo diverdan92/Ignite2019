@@ -32,6 +32,8 @@ steps:
     serverEndpoint: 'App Center'
     appSlug: 'djacobson92-xmqc/Ignite2019'
     appFile: '$(Agent.BuildDirectory)'
-    releaseNotesOption: 'file'
-    releaseNotesFile: '*.relnotes.txt'
+    releaseNotesOption: 'input'
+    releaseNotesInput: 'Release from CI/CD'
     destinationType: 'groups'
+
+    
