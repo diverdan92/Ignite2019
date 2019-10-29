@@ -31,9 +31,7 @@ steps:
   inputs:
     serverEndpoint: 'App Center'
     appSlug: 'djacobson92-xmqc/Ignite2019'
-    appFile: '$(Agent.BuildDirectory)'
+    appFile: '$(Build.ArtifactStagingDirectory)'
     releaseNotesOption: 'input'
-    releaseNotesInput: 'Release from CI/CD'
+    releaseNotesInput: 'Foo'
     destinationType: 'groups'
-
-    
