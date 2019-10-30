@@ -26,12 +26,3 @@ steps:
   inputs:
     targetPath: '$(Build.ArtifactStagingDirectory)'
     artifact: 'Calculator'
-
-- task: AppCenterDistribute@3
-  inputs:
-    serverEndpoint: 'App Center'
-    appSlug: 'djacobson92-xmqc/Ignite2019'
-    appFile: '$(Build.ArtifactStagingDirectory)'
-    releaseNotesOption: 'input'
-    releaseNotesInput: 'Foo'
-    destinationType: 'groups'
