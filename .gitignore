@@ -2,9 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/DotNetConf
-/DotNetConf/bin/Debug/netcoreapp3.0
-/DotNetConf/obj
-/DotNetConfPackage/bin/AnyCPU/Debug
-/DotNetConfPackage/obj/Debug
+/.vs/Ignite2019
+/Ignite2019/bin/Debug/netcoreapp3.0
+/Ignite2019/obj
+/Ignite2019/bin/AnyCPU/Debug
+Ignite2019/obj/Debug
 /.vs
