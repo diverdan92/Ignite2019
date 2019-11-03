@@ -20,7 +20,7 @@ steps:
     publishWebProjects: false
     zipAfterPublish: false
     modifyOutputPath: false
-    arguments: --output $(Build.ArtifactStagingDirectory) /p:PublishProfile=Properties\PublishProfiles\FolderProfile.pubxml
+    arguments: --output $(Build.ArtifactStagingDirectory) /p:PublishProfile=FolderProfile
 
 - task: PublishPipelineArtifact@1
   inputs:
