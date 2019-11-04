@@ -25,7 +25,6 @@ namespace DotNetConf
 			InitializeComponent();
 			AppCenter.Start("a18d8658-8a46-4ce6-a63a-43fbb45facb5",
 				   typeof(Analytics), typeof(Crashes));
-			//foo;
 			_paper = new PaperTrail(this);
 			ProcessKey('0');
 			EraseDisplay = true;
@@ -323,8 +322,8 @@ namespace DotNetConf
 				_paper.AddResult("Error");
 				string equation = _paper.args;
 				Crashes.TrackError(e, new Dictionary<string, string>() { { "Equation: ", equation } });
-				//throw e;
-				MessageBox.Show(parent, "Operation cannot be perfomed", parent.Title);
+				throw e;
+				//MessageBox.Show(parent, "Operation cannot be perfomed", parent.Title);
 			}
 
 			return d;
