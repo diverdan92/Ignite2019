@@ -323,8 +323,8 @@ namespace DotNetConf
 				_paper.AddResult("Error");
 				string equation = _paper.args;
 				Crashes.TrackError(e, new Dictionary<string, string>() { { "Equation: ", equation } });
-				throw e;
-				//MessageBox.Show(parent, "Operation cannot be perfomed", parent.Title);
+				//throw e;
+				MessageBox.Show(parent, "Operation cannot be perfomed", parent.Title);
 			}
 
 			return d;
