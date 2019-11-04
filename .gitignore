@@ -10,3 +10,4 @@
 Ignite2019/obj/Debug
 /.vs
 *.user
+/Ignite2019/bin/Release/netcoreapp3.0/publish
