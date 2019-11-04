@@ -9,6 +9,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.3.0-preview" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.3.0-preview" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.1.13-beta">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3.v110_xp" Version="1.1.14" />
   </ItemGroup>
 </Project>
