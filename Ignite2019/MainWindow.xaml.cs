@@ -25,6 +25,7 @@ namespace DotNetConf
 			InitializeComponent();
 			AppCenter.Start("a18d8658-8a46-4ce6-a63a-43fbb45facb5",
 				   typeof(Analytics), typeof(Crashes));
+
 			_paper = new PaperTrail(this);
 			ProcessKey('0');
 			EraseDisplay = true;
